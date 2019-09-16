@@ -1,0 +1,1881 @@
+﻿09/04/2019 13:55:16:899 -----------------------------------------------------------------
+09/04/2019 13:55:16:899 NetpDoDomainJoin
+09/04/2019 13:55:16:899 NetpDoDomainJoin: using new computer names
+09/04/2019 13:55:16:899 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 13:55:16:899 NetpMachineValidToJoin: 'WIN-XXXXXXXXX'
+09/04/2019 13:55:16:899 NetpMachineValidToJoin: status: 0x0
+09/04/2019 13:55:16:900 NetpJoinWorkgroup: joining computer 'WIN-XXXXXXXXXX' to workgroup 'WORKGROUP'
+09/04/2019 13:55:16:900 NetpValidateName: checking to see if 'WORKGROUP' is valid as type 2 name
+09/04/2019 13:55:16:905 NetpCheckNetBiosNameNotInUse for 'WORKGROUP' [ Workgroup as MACHINE]  returned 0x0
+09/04/2019 13:55:16:905 NetpValidateName: name 'WORKGROUP' is valid for type 2
+09/04/2019 13:55:16:911 NetpJoinWorkgroup: status:  0x0
+09/04/2019 13:55:16:911 NetpDoDomainJoin: status: 0x0
+09/04/2019 13:57:12:564 -----------------------------------------------------------------
+09/04/2019 13:57:12:564 NetpDoDomainJoin
+09/04/2019 13:57:12:564 NetpDoDomainJoin: using new computer names
+09/04/2019 13:57:12:564 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 13:57:12:564 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 13:57:12:564 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 13:57:12:580 NetpMachineValidToJoin: status: 0x0
+09/04/2019 13:57:12:580 NetpJoinDomain
+09/04/2019 13:57:12:580 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 13:57:12:580 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 13:57:12:580 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 13:57:12:580 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 13:57:12:580 	Account: mydomain\joinacct
+09/04/2019 13:57:12:580 	Options: 0x23
+09/04/2019 13:57:12:580 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 13:57:12:580 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 13:57:17:251 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 13:57:17:251 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 13:57:17:251 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 13:57:17:251 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 13:57:17:251 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 13:57:27:264 -----------------------------------------------------------------
+09/04/2019 13:57:27:264 NetpDoDomainJoin
+09/04/2019 13:57:27:264 NetpDoDomainJoin: using new computer names
+09/04/2019 13:57:27:264 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 13:57:27:264 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 13:57:27:264 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 13:57:27:264 NetpMachineValidToJoin: status: 0x0
+09/04/2019 13:57:27:264 NetpJoinDomain
+09/04/2019 13:57:27:264 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 13:57:27:264 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 13:57:27:264 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 13:57:27:264 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 13:57:27:264 	Account: mydomain\joinacct
+09/04/2019 13:57:27:264 	Options: 0x23
+09/04/2019 13:57:27:264 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 13:57:27:264 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 13:57:27:295 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 13:57:27:295 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 13:57:27:295 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 13:57:27:295 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 13:57:27:295 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 13:57:37:309 -----------------------------------------------------------------
+09/04/2019 13:57:37:309 NetpDoDomainJoin
+09/04/2019 13:57:37:309 NetpDoDomainJoin: using new computer names
+09/04/2019 13:57:37:309 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 13:57:37:309 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 13:57:37:309 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 13:57:37:309 NetpMachineValidToJoin: status: 0x0
+09/04/2019 13:57:37:309 NetpJoinDomain
+09/04/2019 13:57:37:309 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 13:57:37:309 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 13:57:37:309 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 13:57:37:309 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 13:57:37:309 	Account: mydomain\joinacct
+09/04/2019 13:57:37:309 	Options: 0x23
+09/04/2019 13:57:37:324 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 13:57:37:324 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 13:57:37:340 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 13:57:37:340 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 13:57:37:340 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 13:57:37:340 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 13:57:37:340 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 13:57:47:354 -----------------------------------------------------------------
+09/04/2019 13:57:47:354 NetpDoDomainJoin
+09/04/2019 13:57:47:354 NetpDoDomainJoin: using new computer names
+09/04/2019 13:57:47:354 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 13:57:47:354 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 13:57:47:354 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 13:57:47:354 NetpMachineValidToJoin: status: 0x0
+09/04/2019 13:57:47:354 NetpJoinDomain
+09/04/2019 13:57:47:354 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 13:57:47:354 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 13:57:47:354 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 13:57:47:354 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 13:57:47:354 	Account: mydomain\joinacct
+09/04/2019 13:57:47:354 	Options: 0x23
+09/04/2019 13:57:47:354 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 13:57:47:354 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 13:57:47:386 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 13:57:47:386 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 13:57:47:386 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 13:57:47:386 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 13:57:47:386 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 13:57:57:401 -----------------------------------------------------------------
+09/04/2019 13:57:57:401 NetpDoDomainJoin
+09/04/2019 13:57:57:401 NetpDoDomainJoin: using new computer names
+09/04/2019 13:57:57:401 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 13:57:57:401 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 13:57:57:401 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 13:57:57:401 NetpMachineValidToJoin: status: 0x0
+09/04/2019 13:57:57:401 NetpJoinDomain
+09/04/2019 13:57:57:401 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 13:57:57:401 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 13:57:57:401 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 13:57:57:401 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 13:57:57:401 	Account: mydomain\joinacct
+09/04/2019 13:57:57:401 	Options: 0x23
+09/04/2019 13:57:57:401 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 13:57:57:401 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 13:57:57:417 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 13:57:57:417 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 13:57:57:417 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 13:57:57:417 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 13:57:57:417 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 13:58:07:430 -----------------------------------------------------------------
+09/04/2019 13:58:07:430 NetpDoDomainJoin
+09/04/2019 13:58:07:430 NetpDoDomainJoin: using new computer names
+09/04/2019 13:58:07:430 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 13:58:07:430 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 13:58:07:430 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 13:58:07:430 NetpMachineValidToJoin: status: 0x0
+09/04/2019 13:58:07:430 NetpJoinDomain
+09/04/2019 13:58:07:430 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 13:58:07:430 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 13:58:07:430 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 13:58:07:430 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 13:58:07:430 	Account: mydomain\joinacct
+09/04/2019 13:58:07:430 	Options: 0x23
+09/04/2019 13:58:07:446 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 13:58:07:446 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 13:58:07:446 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 13:58:07:446 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 13:58:07:446 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 13:58:07:446 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 13:58:07:446 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 13:58:17:464 -----------------------------------------------------------------
+09/04/2019 13:58:17:464 NetpDoDomainJoin
+09/04/2019 13:58:17:464 NetpDoDomainJoin: using new computer names
+09/04/2019 13:58:17:464 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 13:58:17:464 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 13:58:17:464 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 13:58:17:464 NetpMachineValidToJoin: status: 0x0
+09/04/2019 13:58:17:464 NetpJoinDomain
+09/04/2019 13:58:17:464 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 13:58:17:464 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 13:58:17:464 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 13:58:17:464 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 13:58:17:464 	Account: mydomain\joinacct
+09/04/2019 13:58:17:464 	Options: 0x23
+09/04/2019 13:58:17:480 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 13:58:17:480 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 13:58:22:057 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 13:58:22:057 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 13:58:22:057 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 13:58:22:057 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 13:58:22:057 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 13:58:32:072 -----------------------------------------------------------------
+09/04/2019 13:58:32:072 NetpDoDomainJoin
+09/04/2019 13:58:32:072 NetpDoDomainJoin: using new computer names
+09/04/2019 13:58:32:072 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 13:58:32:072 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 13:58:32:072 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 13:58:32:072 NetpMachineValidToJoin: status: 0x0
+09/04/2019 13:58:32:072 NetpJoinDomain
+09/04/2019 13:58:32:072 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 13:58:32:072 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 13:58:32:072 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 13:58:32:072 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 13:58:32:072 	Account: mydomain\joinacct
+09/04/2019 13:58:32:072 	Options: 0x23
+09/04/2019 13:58:32:088 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 13:58:32:088 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 13:58:32:103 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 13:58:32:103 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 13:58:32:103 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 13:58:32:103 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 13:58:32:103 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 13:58:42:119 -----------------------------------------------------------------
+09/04/2019 13:58:42:119 NetpDoDomainJoin
+09/04/2019 13:58:42:119 NetpDoDomainJoin: using new computer names
+09/04/2019 13:58:42:119 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 13:58:42:119 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 13:58:42:119 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 13:58:42:119 NetpMachineValidToJoin: status: 0x0
+09/04/2019 13:58:42:119 NetpJoinDomain
+09/04/2019 13:58:42:119 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 13:58:42:119 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 13:58:42:119 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 13:58:42:119 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 13:58:42:119 	Account: mydomain\joinacct
+09/04/2019 13:58:42:119 	Options: 0x23
+09/04/2019 13:58:42:119 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 13:58:42:119 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 13:58:42:150 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 13:58:42:150 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 13:58:42:150 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 13:58:42:150 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 13:58:42:150 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 13:58:52:156 -----------------------------------------------------------------
+09/04/2019 13:58:52:156 NetpDoDomainJoin
+09/04/2019 13:58:52:156 NetpDoDomainJoin: using new computer names
+09/04/2019 13:58:52:156 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 13:58:52:156 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 13:58:52:156 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 13:58:52:156 NetpMachineValidToJoin: status: 0x0
+09/04/2019 13:58:52:156 NetpJoinDomain
+09/04/2019 13:58:52:156 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 13:58:52:156 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 13:58:52:156 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 13:58:52:156 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 13:58:52:156 	Account: mydomain\joinacct
+09/04/2019 13:58:52:156 	Options: 0x23
+09/04/2019 13:58:52:172 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 13:58:52:172 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 13:58:52:187 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 13:58:52:187 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 13:58:52:187 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 13:58:52:187 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 13:58:52:187 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 13:59:02:202 -----------------------------------------------------------------
+09/04/2019 13:59:02:202 NetpDoDomainJoin
+09/04/2019 13:59:02:202 NetpDoDomainJoin: using new computer names
+09/04/2019 13:59:02:202 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 13:59:02:202 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 13:59:02:202 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 13:59:02:202 NetpMachineValidToJoin: status: 0x0
+09/04/2019 13:59:02:202 NetpJoinDomain
+09/04/2019 13:59:02:202 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 13:59:02:202 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 13:59:02:202 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 13:59:02:202 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 13:59:02:202 	Account: mydomain\joinacct
+09/04/2019 13:59:02:202 	Options: 0x23
+09/04/2019 13:59:02:217 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 13:59:02:217 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 13:59:02:233 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 13:59:02:233 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 13:59:02:233 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 13:59:02:233 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 13:59:02:233 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 13:59:12:247 -----------------------------------------------------------------
+09/04/2019 13:59:12:247 NetpDoDomainJoin
+09/04/2019 13:59:12:247 NetpDoDomainJoin: using new computer names
+09/04/2019 13:59:12:247 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 13:59:12:247 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 13:59:12:247 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 13:59:12:247 NetpMachineValidToJoin: status: 0x0
+09/04/2019 13:59:12:247 NetpJoinDomain
+09/04/2019 13:59:12:247 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 13:59:12:247 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 13:59:12:247 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 13:59:12:247 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 13:59:12:247 	Account: mydomain\joinacct
+09/04/2019 13:59:12:247 	Options: 0x23
+09/04/2019 13:59:12:262 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 13:59:12:262 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 13:59:12:278 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 13:59:12:278 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 13:59:12:278 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 13:59:12:278 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 13:59:12:278 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 13:59:22:292 -----------------------------------------------------------------
+09/04/2019 13:59:22:292 NetpDoDomainJoin
+09/04/2019 13:59:22:292 NetpDoDomainJoin: using new computer names
+09/04/2019 13:59:22:292 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 13:59:22:292 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 13:59:22:292 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 13:59:22:292 NetpMachineValidToJoin: status: 0x0
+09/04/2019 13:59:22:292 NetpJoinDomain
+09/04/2019 13:59:22:292 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 13:59:22:292 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 13:59:22:292 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 13:59:22:292 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 13:59:22:292 	Account: mydomain\joinacct
+09/04/2019 13:59:22:292 	Options: 0x23
+09/04/2019 13:59:22:308 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 13:59:22:308 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 13:59:22:324 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 13:59:22:324 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 13:59:22:324 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 13:59:22:324 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 13:59:22:324 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 13:59:32:337 -----------------------------------------------------------------
+09/04/2019 13:59:32:337 NetpDoDomainJoin
+09/04/2019 13:59:32:337 NetpDoDomainJoin: using new computer names
+09/04/2019 13:59:32:337 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 13:59:32:337 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 13:59:32:337 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 13:59:32:337 NetpMachineValidToJoin: status: 0x0
+09/04/2019 13:59:32:337 NetpJoinDomain
+09/04/2019 13:59:32:337 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 13:59:32:337 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 13:59:32:337 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 13:59:32:337 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 13:59:32:337 	Account: mydomain\joinacct
+09/04/2019 13:59:32:337 	Options: 0x23
+09/04/2019 13:59:32:353 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 13:59:32:353 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 13:59:32:368 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 13:59:32:368 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 13:59:32:368 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 13:59:32:368 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 13:59:32:368 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 13:59:42:382 -----------------------------------------------------------------
+09/04/2019 13:59:42:382 NetpDoDomainJoin
+09/04/2019 13:59:42:382 NetpDoDomainJoin: using new computer names
+09/04/2019 13:59:42:382 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 13:59:42:382 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 13:59:42:382 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 13:59:42:382 NetpMachineValidToJoin: status: 0x0
+09/04/2019 13:59:42:382 NetpJoinDomain
+09/04/2019 13:59:42:382 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 13:59:42:382 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 13:59:42:382 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 13:59:42:382 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 13:59:42:382 	Account: mydomain\joinacct
+09/04/2019 13:59:42:382 	Options: 0x23
+09/04/2019 13:59:42:382 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 13:59:42:382 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 13:59:42:397 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 13:59:42:397 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 13:59:42:397 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 13:59:42:397 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 13:59:42:397 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 13:59:52:426 -----------------------------------------------------------------
+09/04/2019 13:59:52:426 NetpDoDomainJoin
+09/04/2019 13:59:52:426 NetpDoDomainJoin: using new computer names
+09/04/2019 13:59:52:426 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 13:59:52:426 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 13:59:52:426 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 13:59:52:426 NetpMachineValidToJoin: status: 0x0
+09/04/2019 13:59:52:426 NetpJoinDomain
+09/04/2019 13:59:52:426 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 13:59:52:426 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 13:59:52:426 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 13:59:52:426 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 13:59:52:426 	Account: mydomain\joinacct
+09/04/2019 13:59:52:426 	Options: 0x23
+09/04/2019 13:59:52:441 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 13:59:52:441 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 13:59:52:457 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 13:59:52:457 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 13:59:52:457 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 13:59:52:457 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 13:59:52:457 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:00:02:474 -----------------------------------------------------------------
+09/04/2019 14:00:02:474 NetpDoDomainJoin
+09/04/2019 14:00:02:474 NetpDoDomainJoin: using new computer names
+09/04/2019 14:00:02:474 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:00:02:474 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:00:02:474 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:00:02:474 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:00:02:474 NetpJoinDomain
+09/04/2019 14:00:02:474 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:00:02:474 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:00:02:474 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:00:02:474 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:00:02:474 	Account: mydomain\joinacct
+09/04/2019 14:00:02:474 	Options: 0x23
+09/04/2019 14:00:02:474 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:00:02:474 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:00:02:490 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:00:02:490 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:00:02:490 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:00:02:490 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:00:02:490 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:00:12:516 -----------------------------------------------------------------
+09/04/2019 14:00:12:516 NetpDoDomainJoin
+09/04/2019 14:00:12:516 NetpDoDomainJoin: using new computer names
+09/04/2019 14:00:12:516 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:00:12:516 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:00:12:516 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:00:12:516 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:00:12:516 NetpJoinDomain
+09/04/2019 14:00:12:516 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:00:12:516 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:00:12:516 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:00:12:516 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:00:12:516 	Account: mydomain\joinacct
+09/04/2019 14:00:12:516 	Options: 0x23
+09/04/2019 14:00:12:531 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:00:12:531 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:00:12:547 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:00:12:547 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:00:12:547 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:00:12:547 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:00:12:547 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:00:22:560 -----------------------------------------------------------------
+09/04/2019 14:00:22:560 NetpDoDomainJoin
+09/04/2019 14:00:22:560 NetpDoDomainJoin: using new computer names
+09/04/2019 14:00:22:560 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:00:22:560 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:00:22:560 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:00:22:560 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:00:22:560 NetpJoinDomain
+09/04/2019 14:00:22:560 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:00:22:560 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:00:22:560 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:00:22:560 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:00:22:560 	Account: mydomain\joinacct
+09/04/2019 14:00:22:560 	Options: 0x23
+09/04/2019 14:00:22:576 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:00:22:576 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:00:22:592 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:00:22:592 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:00:22:592 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:00:22:592 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:00:22:592 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:00:32:610 -----------------------------------------------------------------
+09/04/2019 14:00:32:610 NetpDoDomainJoin
+09/04/2019 14:00:32:610 NetpDoDomainJoin: using new computer names
+09/04/2019 14:00:32:610 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:00:32:610 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:00:32:610 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:00:32:610 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:00:32:610 NetpJoinDomain
+09/04/2019 14:00:32:610 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:00:32:610 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:00:32:610 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:00:32:610 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:00:32:610 	Account: mydomain\joinacct
+09/04/2019 14:00:32:610 	Options: 0x23
+09/04/2019 14:00:32:626 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:00:32:626 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:00:32:641 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:00:32:641 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:00:32:641 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:00:32:641 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:00:32:641 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:00:42:655 -----------------------------------------------------------------
+09/04/2019 14:00:42:655 NetpDoDomainJoin
+09/04/2019 14:00:42:655 NetpDoDomainJoin: using new computer names
+09/04/2019 14:00:42:655 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:00:42:655 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:00:42:655 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:00:42:655 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:00:42:655 NetpJoinDomain
+09/04/2019 14:00:42:655 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:00:42:655 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:00:42:655 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:00:42:655 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:00:42:655 	Account: mydomain\joinacct
+09/04/2019 14:00:42:655 	Options: 0x23
+09/04/2019 14:00:42:655 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:00:42:655 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:00:42:670 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:00:42:670 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:00:42:670 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:00:42:670 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:00:42:670 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:00:52:684 -----------------------------------------------------------------
+09/04/2019 14:00:52:684 NetpDoDomainJoin
+09/04/2019 14:00:52:684 NetpDoDomainJoin: using new computer names
+09/04/2019 14:00:52:684 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:00:52:684 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:00:52:684 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:00:52:684 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:00:52:684 NetpJoinDomain
+09/04/2019 14:00:52:684 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:00:52:684 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:00:52:684 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:00:52:684 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:00:52:684 	Account: mydomain\joinacct
+09/04/2019 14:00:52:684 	Options: 0x23
+09/04/2019 14:00:52:700 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:00:52:700 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:00:52:715 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:00:52:715 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:00:52:715 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:00:52:715 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:00:52:715 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:01:02:730 -----------------------------------------------------------------
+09/04/2019 14:01:02:730 NetpDoDomainJoin
+09/04/2019 14:01:02:730 NetpDoDomainJoin: using new computer names
+09/04/2019 14:01:02:730 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:01:02:730 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:01:02:730 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:01:02:730 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:01:02:730 NetpJoinDomain
+09/04/2019 14:01:02:730 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:01:02:730 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:01:02:730 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:01:02:730 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:01:02:730 	Account: mydomain\joinacct
+09/04/2019 14:01:02:730 	Options: 0x23
+09/04/2019 14:01:02:745 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:01:02:745 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:01:02:761 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:01:02:761 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:01:02:761 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:01:02:761 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:01:02:761 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:01:12:774 -----------------------------------------------------------------
+09/04/2019 14:01:12:774 NetpDoDomainJoin
+09/04/2019 14:01:12:774 NetpDoDomainJoin: using new computer names
+09/04/2019 14:01:12:774 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:01:12:774 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:01:12:774 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:01:12:774 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:01:12:774 NetpJoinDomain
+09/04/2019 14:01:12:774 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:01:12:774 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:01:12:774 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:01:12:774 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:01:12:774 	Account: mydomain\joinacct
+09/04/2019 14:01:12:774 	Options: 0x23
+09/04/2019 14:01:12:790 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:01:12:790 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:01:12:805 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:01:12:805 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:01:12:805 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:01:12:805 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:01:12:805 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:01:22:818 -----------------------------------------------------------------
+09/04/2019 14:01:22:818 NetpDoDomainJoin
+09/04/2019 14:01:22:818 NetpDoDomainJoin: using new computer names
+09/04/2019 14:01:22:818 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:01:22:818 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:01:22:818 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:01:22:818 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:01:22:818 NetpJoinDomain
+09/04/2019 14:01:22:818 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:01:22:818 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:01:22:818 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:01:22:818 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:01:22:818 	Account: mydomain\joinacct
+09/04/2019 14:01:22:818 	Options: 0x23
+09/04/2019 14:01:22:818 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:01:22:818 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:01:22:849 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:01:22:849 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:01:22:849 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:01:22:849 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:01:22:849 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:01:32:865 -----------------------------------------------------------------
+09/04/2019 14:01:32:865 NetpDoDomainJoin
+09/04/2019 14:01:32:865 NetpDoDomainJoin: using new computer names
+09/04/2019 14:01:32:865 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:01:32:865 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:01:32:865 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:01:32:865 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:01:32:865 NetpJoinDomain
+09/04/2019 14:01:32:865 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:01:32:865 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:01:32:865 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:01:32:865 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:01:32:865 	Account: mydomain\joinacct
+09/04/2019 14:01:32:865 	Options: 0x23
+09/04/2019 14:01:32:881 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:01:32:881 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:01:32:896 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:01:32:896 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:01:32:896 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:01:32:896 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:01:32:896 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:01:42:910 -----------------------------------------------------------------
+09/04/2019 14:01:42:910 NetpDoDomainJoin
+09/04/2019 14:01:42:910 NetpDoDomainJoin: using new computer names
+09/04/2019 14:01:42:910 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:01:42:910 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:01:42:910 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:01:42:910 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:01:42:910 NetpJoinDomain
+09/04/2019 14:01:42:910 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:01:42:910 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:01:42:910 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:01:42:910 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:01:42:910 	Account: mydomain\joinacct
+09/04/2019 14:01:42:910 	Options: 0x23
+09/04/2019 14:01:42:925 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:01:42:925 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:01:42:941 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:01:42:941 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:01:42:941 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:01:42:941 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:01:42:941 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:01:52:954 -----------------------------------------------------------------
+09/04/2019 14:01:52:954 NetpDoDomainJoin
+09/04/2019 14:01:52:954 NetpDoDomainJoin: using new computer names
+09/04/2019 14:01:52:954 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:01:52:954 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:01:52:954 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:01:52:954 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:01:52:954 NetpJoinDomain
+09/04/2019 14:01:52:954 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:01:52:954 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:01:52:954 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:01:52:954 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:01:52:954 	Account: mydomain\joinacct
+09/04/2019 14:01:52:954 	Options: 0x23
+09/04/2019 14:01:52:954 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:01:52:954 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:01:52:985 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:01:52:985 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:01:52:985 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:01:52:985 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:01:52:985 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:02:02:998 -----------------------------------------------------------------
+09/04/2019 14:02:02:998 NetpDoDomainJoin
+09/04/2019 14:02:02:998 NetpDoDomainJoin: using new computer names
+09/04/2019 14:02:02:998 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:02:02:998 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:02:02:998 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:02:02:998 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:02:02:998 NetpJoinDomain
+09/04/2019 14:02:02:998 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:02:02:998 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:02:02:998 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:02:02:998 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:02:02:998 	Account: mydomain\joinacct
+09/04/2019 14:02:02:998 	Options: 0x23
+09/04/2019 14:02:03:014 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:02:03:014 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:02:03:030 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:02:03:030 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:02:03:030 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:02:03:030 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:02:03:030 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:02:13:045 -----------------------------------------------------------------
+09/04/2019 14:02:13:045 NetpDoDomainJoin
+09/04/2019 14:02:13:045 NetpDoDomainJoin: using new computer names
+09/04/2019 14:02:13:045 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:02:13:045 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:02:13:045 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:02:13:045 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:02:13:045 NetpJoinDomain
+09/04/2019 14:02:13:045 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:02:13:045 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:02:13:045 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:02:13:045 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:02:13:045 	Account: mydomain\joinacct
+09/04/2019 14:02:13:045 	Options: 0x23
+09/04/2019 14:02:13:060 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:02:13:060 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:02:13:076 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:02:13:076 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:02:13:076 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:02:13:076 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:02:13:076 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:02:23:091 -----------------------------------------------------------------
+09/04/2019 14:02:23:091 NetpDoDomainJoin
+09/04/2019 14:02:23:091 NetpDoDomainJoin: using new computer names
+09/04/2019 14:02:23:091 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:02:23:091 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:02:23:091 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:02:23:091 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:02:23:091 NetpJoinDomain
+09/04/2019 14:02:23:091 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:02:23:091 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:02:23:091 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:02:23:091 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:02:23:091 	Account: mydomain\joinacct
+09/04/2019 14:02:23:091 	Options: 0x23
+09/04/2019 14:02:23:091 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:02:23:091 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:02:23:107 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:02:23:107 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:02:23:107 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:02:23:107 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:02:23:107 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:02:33:123 -----------------------------------------------------------------
+09/04/2019 14:02:33:123 NetpDoDomainJoin
+09/04/2019 14:02:33:123 NetpDoDomainJoin: using new computer names
+09/04/2019 14:02:33:123 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:02:33:123 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:02:33:123 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:02:33:123 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:02:33:123 NetpJoinDomain
+09/04/2019 14:02:33:123 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:02:33:123 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:02:33:123 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:02:33:123 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:02:33:123 	Account: mydomain\joinacct
+09/04/2019 14:02:33:123 	Options: 0x23
+09/04/2019 14:02:33:123 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:02:33:123 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:02:33:139 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:02:33:139 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:02:33:139 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:02:33:139 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:02:33:139 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:02:43:169 -----------------------------------------------------------------
+09/04/2019 14:02:43:169 NetpDoDomainJoin
+09/04/2019 14:02:43:169 NetpDoDomainJoin: using new computer names
+09/04/2019 14:02:43:169 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:02:43:169 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:02:43:169 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:02:43:169 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:02:43:169 NetpJoinDomain
+09/04/2019 14:02:43:169 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:02:43:169 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:02:43:169 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:02:43:169 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:02:43:169 	Account: mydomain\joinacct
+09/04/2019 14:02:43:169 	Options: 0x23
+09/04/2019 14:02:43:169 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:02:43:185 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:02:43:200 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:02:43:200 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:02:43:200 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:02:43:200 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:02:43:200 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:02:53:214 -----------------------------------------------------------------
+09/04/2019 14:02:53:214 NetpDoDomainJoin
+09/04/2019 14:02:53:214 NetpDoDomainJoin: using new computer names
+09/04/2019 14:02:53:214 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:02:53:214 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:02:53:214 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:02:53:214 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:02:53:214 NetpJoinDomain
+09/04/2019 14:02:53:214 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:02:53:214 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:02:53:214 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:02:53:214 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:02:53:214 	Account: mydomain\joinacct
+09/04/2019 14:02:53:214 	Options: 0x23
+09/04/2019 14:02:53:229 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:02:53:229 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:02:53:245 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:02:53:245 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:02:53:245 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:02:53:245 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:02:53:245 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:03:03:259 -----------------------------------------------------------------
+09/04/2019 14:03:03:259 NetpDoDomainJoin
+09/04/2019 14:03:03:259 NetpDoDomainJoin: using new computer names
+09/04/2019 14:03:03:259 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:03:03:259 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:03:03:259 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:03:03:259 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:03:03:259 NetpJoinDomain
+09/04/2019 14:03:03:259 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:03:03:259 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:03:03:259 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:03:03:259 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:03:03:259 	Account: mydomain\joinacct
+09/04/2019 14:03:03:259 	Options: 0x23
+09/04/2019 14:03:03:275 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:03:03:275 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:03:03:290 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:03:03:290 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:03:03:290 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:03:03:290 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:03:03:290 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:03:13:301 -----------------------------------------------------------------
+09/04/2019 14:03:13:301 NetpDoDomainJoin
+09/04/2019 14:03:13:301 NetpDoDomainJoin: using new computer names
+09/04/2019 14:03:13:301 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:03:13:301 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:03:13:301 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:03:13:301 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:03:13:301 NetpJoinDomain
+09/04/2019 14:03:13:301 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:03:13:301 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:03:13:301 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:03:13:301 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:03:13:301 	Account: mydomain\joinacct
+09/04/2019 14:03:13:301 	Options: 0x23
+09/04/2019 14:03:13:316 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:03:13:316 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:03:13:332 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:03:13:332 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:03:13:332 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:03:13:332 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:03:13:332 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:03:23:352 -----------------------------------------------------------------
+09/04/2019 14:03:23:352 NetpDoDomainJoin
+09/04/2019 14:03:23:352 NetpDoDomainJoin: using new computer names
+09/04/2019 14:03:23:352 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:03:23:352 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:03:23:352 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:03:23:352 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:03:23:352 NetpJoinDomain
+09/04/2019 14:03:23:352 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:03:23:352 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:03:23:352 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:03:23:352 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:03:23:352 	Account: mydomain\joinacct
+09/04/2019 14:03:23:352 	Options: 0x23
+09/04/2019 14:03:23:368 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:03:23:368 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:03:23:384 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:03:23:384 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:03:23:384 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:03:23:384 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:03:23:384 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:03:33:397 -----------------------------------------------------------------
+09/04/2019 14:03:33:397 NetpDoDomainJoin
+09/04/2019 14:03:33:397 NetpDoDomainJoin: using new computer names
+09/04/2019 14:03:33:397 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:03:33:397 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:03:33:397 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:03:33:397 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:03:33:397 NetpJoinDomain
+09/04/2019 14:03:33:397 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:03:33:397 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:03:33:397 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:03:33:397 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:03:33:397 	Account: mydomain\joinacct
+09/04/2019 14:03:33:397 	Options: 0x23
+09/04/2019 14:03:33:412 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:03:33:412 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:03:33:412 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:03:33:412 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:03:33:412 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:03:33:412 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:03:33:412 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:03:43:441 -----------------------------------------------------------------
+09/04/2019 14:03:43:441 NetpDoDomainJoin
+09/04/2019 14:03:43:441 NetpDoDomainJoin: using new computer names
+09/04/2019 14:03:43:441 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:03:43:441 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:03:43:441 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:03:43:441 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:03:43:441 NetpJoinDomain
+09/04/2019 14:03:43:441 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:03:43:441 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:03:43:441 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:03:43:441 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:03:43:441 	Account: mydomain\joinacct
+09/04/2019 14:03:43:441 	Options: 0x23
+09/04/2019 14:03:43:457 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:03:43:457 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:03:43:473 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:03:43:473 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:03:43:473 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:03:43:473 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:03:43:473 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:03:53:489 -----------------------------------------------------------------
+09/04/2019 14:03:53:489 NetpDoDomainJoin
+09/04/2019 14:03:53:489 NetpDoDomainJoin: using new computer names
+09/04/2019 14:03:53:489 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:03:53:489 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:03:53:489 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:03:53:489 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:03:53:489 NetpJoinDomain
+09/04/2019 14:03:53:489 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:03:53:489 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:03:53:489 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:03:53:489 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:03:53:489 	Account: mydomain\joinacct
+09/04/2019 14:03:53:489 	Options: 0x23
+09/04/2019 14:03:53:489 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:03:53:489 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:03:53:489 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:03:53:489 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:03:53:489 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:03:53:489 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:03:53:489 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:04:03:516 -----------------------------------------------------------------
+09/04/2019 14:04:03:516 NetpDoDomainJoin
+09/04/2019 14:04:03:516 NetpDoDomainJoin: using new computer names
+09/04/2019 14:04:03:516 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:04:03:516 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:04:03:516 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:04:03:516 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:04:03:516 NetpJoinDomain
+09/04/2019 14:04:03:516 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:04:03:516 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:04:03:516 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:04:03:516 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:04:03:516 	Account: mydomain\joinacct
+09/04/2019 14:04:03:516 	Options: 0x23
+09/04/2019 14:04:03:532 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:04:03:532 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:04:03:547 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:04:03:547 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:04:03:547 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:04:03:547 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:04:03:547 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:04:13:561 -----------------------------------------------------------------
+09/04/2019 14:04:13:561 NetpDoDomainJoin
+09/04/2019 14:04:13:561 NetpDoDomainJoin: using new computer names
+09/04/2019 14:04:13:561 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:04:13:561 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:04:13:561 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:04:13:561 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:04:13:561 NetpJoinDomain
+09/04/2019 14:04:13:561 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:04:13:561 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:04:13:561 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:04:13:561 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:04:13:561 	Account: mydomain\joinacct
+09/04/2019 14:04:13:561 	Options: 0x23
+09/04/2019 14:04:13:576 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:04:13:576 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:04:13:592 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:04:13:592 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:04:13:592 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:04:13:592 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:04:13:592 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:04:23:608 -----------------------------------------------------------------
+09/04/2019 14:04:23:608 NetpDoDomainJoin
+09/04/2019 14:04:23:608 NetpDoDomainJoin: using new computer names
+09/04/2019 14:04:23:608 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:04:23:608 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:04:23:608 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:04:23:608 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:04:23:608 NetpJoinDomain
+09/04/2019 14:04:23:608 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:04:23:608 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:04:23:608 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:04:23:608 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:04:23:608 	Account: mydomain\joinacct
+09/04/2019 14:04:23:608 	Options: 0x23
+09/04/2019 14:04:23:624 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:04:23:624 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:04:23:639 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:04:23:639 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:04:23:639 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:04:23:639 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:04:23:639 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:04:33:655 -----------------------------------------------------------------
+09/04/2019 14:04:33:655 NetpDoDomainJoin
+09/04/2019 14:04:33:655 NetpDoDomainJoin: using new computer names
+09/04/2019 14:04:33:655 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:04:33:655 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:04:33:655 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:04:33:655 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:04:33:655 NetpJoinDomain
+09/04/2019 14:04:33:655 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:04:33:655 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:04:33:655 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:04:33:655 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:04:33:655 	Account: mydomain\joinacct
+09/04/2019 14:04:33:655 	Options: 0x23
+09/04/2019 14:04:33:671 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:04:33:671 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:04:33:687 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:04:33:687 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:04:33:687 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:04:33:687 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:04:33:687 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:04:43:700 -----------------------------------------------------------------
+09/04/2019 14:04:43:700 NetpDoDomainJoin
+09/04/2019 14:04:43:700 NetpDoDomainJoin: using new computer names
+09/04/2019 14:04:43:700 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:04:43:700 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:04:43:700 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:04:43:700 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:04:43:700 NetpJoinDomain
+09/04/2019 14:04:43:700 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:04:43:700 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:04:43:700 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:04:43:700 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:04:43:700 	Account: mydomain\joinacct
+09/04/2019 14:04:43:700 	Options: 0x23
+09/04/2019 14:04:43:715 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:04:43:715 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:04:43:731 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:04:43:731 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:04:43:731 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:04:43:731 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:04:43:731 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:04:53:745 -----------------------------------------------------------------
+09/04/2019 14:04:53:745 NetpDoDomainJoin
+09/04/2019 14:04:53:745 NetpDoDomainJoin: using new computer names
+09/04/2019 14:04:53:745 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:04:53:745 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:04:53:745 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:04:53:745 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:04:53:745 NetpJoinDomain
+09/04/2019 14:04:53:745 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:04:53:745 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:04:53:745 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:04:53:745 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:04:53:745 	Account: mydomain\joinacct
+09/04/2019 14:04:53:745 	Options: 0x23
+09/04/2019 14:04:53:745 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:04:53:745 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:04:53:776 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:04:53:776 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:04:53:776 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:04:53:776 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:04:53:776 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:05:03:796 -----------------------------------------------------------------
+09/04/2019 14:05:03:796 NetpDoDomainJoin
+09/04/2019 14:05:03:796 NetpDoDomainJoin: using new computer names
+09/04/2019 14:05:03:796 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:05:03:796 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:05:03:796 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:05:03:796 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:05:03:796 NetpJoinDomain
+09/04/2019 14:05:03:796 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:05:03:796 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:05:03:796 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:05:03:796 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:05:03:796 	Account: mydomain\joinacct
+09/04/2019 14:05:03:796 	Options: 0x23
+09/04/2019 14:05:03:811 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:05:03:811 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:05:03:827 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:05:03:827 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:05:03:827 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:05:03:827 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:05:03:827 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:05:13:840 -----------------------------------------------------------------
+09/04/2019 14:05:13:840 NetpDoDomainJoin
+09/04/2019 14:05:13:840 NetpDoDomainJoin: using new computer names
+09/04/2019 14:05:13:840 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:05:13:840 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:05:13:840 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:05:13:840 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:05:13:840 NetpJoinDomain
+09/04/2019 14:05:13:840 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:05:13:840 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:05:13:840 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:05:13:840 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:05:13:840 	Account: mydomain\joinacct
+09/04/2019 14:05:13:840 	Options: 0x23
+09/04/2019 14:05:13:840 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:05:13:856 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:05:13:871 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:05:13:871 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:05:13:871 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:05:13:871 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:05:13:871 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:05:23:879 -----------------------------------------------------------------
+09/04/2019 14:05:23:879 NetpDoDomainJoin
+09/04/2019 14:05:23:879 NetpDoDomainJoin: using new computer names
+09/04/2019 14:05:23:879 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:05:23:879 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:05:23:879 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:05:23:879 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:05:23:879 NetpJoinDomain
+09/04/2019 14:05:23:879 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:05:23:879 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:05:23:879 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:05:23:879 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:05:23:879 	Account: mydomain\joinacct
+09/04/2019 14:05:23:879 	Options: 0x23
+09/04/2019 14:05:23:879 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:05:23:879 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:05:23:894 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:05:23:894 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:05:23:894 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:05:23:894 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:05:23:894 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:05:33:923 -----------------------------------------------------------------
+09/04/2019 14:05:33:923 NetpDoDomainJoin
+09/04/2019 14:05:33:923 NetpDoDomainJoin: using new computer names
+09/04/2019 14:05:33:923 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:05:33:923 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:05:33:923 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:05:33:923 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:05:33:923 NetpJoinDomain
+09/04/2019 14:05:33:923 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:05:33:923 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:05:33:923 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:05:33:923 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:05:33:923 	Account: mydomain\joinacct
+09/04/2019 14:05:33:923 	Options: 0x23
+09/04/2019 14:05:33:938 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:05:33:938 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:05:33:954 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:05:33:954 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:05:33:954 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:05:33:954 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:05:33:954 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:05:43:968 -----------------------------------------------------------------
+09/04/2019 14:05:43:968 NetpDoDomainJoin
+09/04/2019 14:05:43:968 NetpDoDomainJoin: using new computer names
+09/04/2019 14:05:43:968 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:05:43:968 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:05:43:968 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:05:43:968 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:05:43:968 NetpJoinDomain
+09/04/2019 14:05:43:968 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:05:43:968 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:05:43:968 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:05:43:968 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:05:43:968 	Account: mydomain\joinacct
+09/04/2019 14:05:43:968 	Options: 0x23
+09/04/2019 14:05:43:984 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:05:43:984 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:05:43:999 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:05:43:999 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:05:43:999 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:05:43:999 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:05:43:999 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:05:54:013 -----------------------------------------------------------------
+09/04/2019 14:05:54:013 NetpDoDomainJoin
+09/04/2019 14:05:54:013 NetpDoDomainJoin: using new computer names
+09/04/2019 14:05:54:013 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:05:54:013 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:05:54:013 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:05:54:013 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:05:54:013 NetpJoinDomain
+09/04/2019 14:05:54:013 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:05:54:013 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:05:54:013 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:05:54:013 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:05:54:013 	Account: mydomain\joinacct
+09/04/2019 14:05:54:013 	Options: 0x23
+09/04/2019 14:05:54:028 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:05:54:028 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:05:54:044 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:05:54:044 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:05:54:044 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:05:54:044 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:05:54:044 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:06:04:057 -----------------------------------------------------------------
+09/04/2019 14:06:04:057 NetpDoDomainJoin
+09/04/2019 14:06:04:057 NetpDoDomainJoin: using new computer names
+09/04/2019 14:06:04:057 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:06:04:057 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:06:04:057 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:06:04:057 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:06:04:057 NetpJoinDomain
+09/04/2019 14:06:04:057 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:06:04:057 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:06:04:057 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:06:04:057 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:06:04:057 	Account: mydomain\joinacct
+09/04/2019 14:06:04:057 	Options: 0x23
+09/04/2019 14:06:04:073 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:06:04:073 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:06:04:088 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:06:04:088 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:06:04:088 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:06:04:088 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:06:04:088 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:06:14:102 -----------------------------------------------------------------
+09/04/2019 14:06:14:102 NetpDoDomainJoin
+09/04/2019 14:06:14:102 NetpDoDomainJoin: using new computer names
+09/04/2019 14:06:14:102 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:06:14:102 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:06:14:102 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:06:14:102 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:06:14:102 NetpJoinDomain
+09/04/2019 14:06:14:102 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:06:14:102 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:06:14:102 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:06:14:102 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:06:14:102 	Account: mydomain\joinacct
+09/04/2019 14:06:14:102 	Options: 0x23
+09/04/2019 14:06:14:102 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:06:14:102 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:06:14:133 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:06:14:133 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:06:14:133 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:06:14:133 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:06:14:133 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:06:24:146 -----------------------------------------------------------------
+09/04/2019 14:06:24:146 NetpDoDomainJoin
+09/04/2019 14:06:24:146 NetpDoDomainJoin: using new computer names
+09/04/2019 14:06:24:146 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:06:24:146 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:06:24:146 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:06:24:146 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:06:24:146 NetpJoinDomain
+09/04/2019 14:06:24:146 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:06:24:146 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:06:24:146 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:06:24:146 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:06:24:146 	Account: mydomain\joinacct
+09/04/2019 14:06:24:146 	Options: 0x23
+09/04/2019 14:06:24:162 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:06:24:162 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:06:24:177 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:06:24:177 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:06:24:177 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:06:24:177 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:06:24:177 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:06:34:195 -----------------------------------------------------------------
+09/04/2019 14:06:34:195 NetpDoDomainJoin
+09/04/2019 14:06:34:195 NetpDoDomainJoin: using new computer names
+09/04/2019 14:06:34:195 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:06:34:195 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:06:34:195 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:06:34:195 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:06:34:195 NetpJoinDomain
+09/04/2019 14:06:34:195 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:06:34:195 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:06:34:195 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:06:34:195 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:06:34:195 	Account: mydomain\joinacct
+09/04/2019 14:06:34:195 	Options: 0x23
+09/04/2019 14:06:34:195 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:06:34:195 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:06:34:210 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:06:34:210 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:06:34:210 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:06:34:210 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:06:34:210 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:06:44:224 -----------------------------------------------------------------
+09/04/2019 14:06:44:224 NetpDoDomainJoin
+09/04/2019 14:06:44:224 NetpDoDomainJoin: using new computer names
+09/04/2019 14:06:44:224 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:06:44:224 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:06:44:224 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:06:44:224 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:06:44:224 NetpJoinDomain
+09/04/2019 14:06:44:224 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:06:44:224 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:06:44:224 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:06:44:224 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:06:44:224 	Account: mydomain\joinacct
+09/04/2019 14:06:44:224 	Options: 0x23
+09/04/2019 14:06:44:224 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:06:44:224 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:06:44:240 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:06:44:240 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:06:44:240 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:06:44:240 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:06:44:240 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:06:54:263 -----------------------------------------------------------------
+09/04/2019 14:06:54:263 NetpDoDomainJoin
+09/04/2019 14:06:54:263 NetpDoDomainJoin: using new computer names
+09/04/2019 14:06:54:263 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:06:54:263 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:06:54:263 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:06:54:263 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:06:54:263 NetpJoinDomain
+09/04/2019 14:06:54:263 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:06:54:263 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:06:54:263 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:06:54:263 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:06:54:263 	Account: mydomain\joinacct
+09/04/2019 14:06:54:263 	Options: 0x23
+09/04/2019 14:06:54:278 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:06:54:278 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:06:54:294 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:06:54:294 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:06:54:294 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:06:54:294 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:06:54:294 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:07:04:308 -----------------------------------------------------------------
+09/04/2019 14:07:04:308 NetpDoDomainJoin
+09/04/2019 14:07:04:308 NetpDoDomainJoin: using new computer names
+09/04/2019 14:07:04:308 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:07:04:308 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:07:04:308 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:07:04:308 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:07:04:308 NetpJoinDomain
+09/04/2019 14:07:04:308 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:07:04:308 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:07:04:308 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:07:04:308 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:07:04:308 	Account: mydomain\joinacct
+09/04/2019 14:07:04:308 	Options: 0x23
+09/04/2019 14:07:04:323 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:07:04:323 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:07:04:339 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:07:04:339 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:07:04:339 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:07:04:339 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:07:04:339 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:07:14:352 -----------------------------------------------------------------
+09/04/2019 14:07:14:352 NetpDoDomainJoin
+09/04/2019 14:07:14:352 NetpDoDomainJoin: using new computer names
+09/04/2019 14:07:14:352 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:07:14:352 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:07:14:352 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:07:14:352 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:07:14:352 NetpJoinDomain
+09/04/2019 14:07:14:352 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:07:14:352 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:07:14:352 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:07:14:352 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:07:14:352 	Account: mydomain\joinacct
+09/04/2019 14:07:14:352 	Options: 0x23
+09/04/2019 14:07:14:352 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:07:14:352 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:07:14:368 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:07:14:368 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:07:14:368 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:07:14:368 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:07:14:368 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:07:24:399 -----------------------------------------------------------------
+09/04/2019 14:07:24:399 NetpDoDomainJoin
+09/04/2019 14:07:24:399 NetpDoDomainJoin: using new computer names
+09/04/2019 14:07:24:399 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:07:24:399 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:07:24:399 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:07:24:399 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:07:24:399 NetpJoinDomain
+09/04/2019 14:07:24:399 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:07:24:399 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:07:24:399 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:07:24:399 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:07:24:399 	Account: mydomain\joinacct
+09/04/2019 14:07:24:399 	Options: 0x23
+09/04/2019 14:07:24:414 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:07:24:414 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:07:24:417 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:07:24:433 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:07:24:433 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:07:24:433 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:07:24:433 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:07:34:447 -----------------------------------------------------------------
+09/04/2019 14:07:34:447 NetpDoDomainJoin
+09/04/2019 14:07:34:447 NetpDoDomainJoin: using new computer names
+09/04/2019 14:07:34:447 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:07:34:447 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:07:34:447 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:07:34:447 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:07:34:447 NetpJoinDomain
+09/04/2019 14:07:34:447 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:07:34:447 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:07:34:447 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:07:34:447 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:07:34:447 	Account: mydomain\joinacct
+09/04/2019 14:07:34:447 	Options: 0x23
+09/04/2019 14:07:34:462 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:07:34:462 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:07:34:478 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:07:34:478 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:07:34:478 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:07:34:478 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:07:34:478 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:07:44:491 -----------------------------------------------------------------
+09/04/2019 14:07:44:491 NetpDoDomainJoin
+09/04/2019 14:07:44:491 NetpDoDomainJoin: using new computer names
+09/04/2019 14:07:44:491 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:07:44:491 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:07:44:491 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:07:44:491 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:07:44:491 NetpJoinDomain
+09/04/2019 14:07:44:491 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:07:44:491 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:07:44:491 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:07:44:491 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:07:44:491 	Account: mydomain\joinacct
+09/04/2019 14:07:44:491 	Options: 0x23
+09/04/2019 14:07:44:507 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:07:44:507 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:07:44:522 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:07:44:522 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:07:44:522 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:07:44:522 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:07:44:522 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:07:54:536 -----------------------------------------------------------------
+09/04/2019 14:07:54:536 NetpDoDomainJoin
+09/04/2019 14:07:54:536 NetpDoDomainJoin: using new computer names
+09/04/2019 14:07:54:536 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:07:54:536 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:07:54:536 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:07:54:536 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:07:54:536 NetpJoinDomain
+09/04/2019 14:07:54:536 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:07:54:536 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:07:54:536 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:07:54:536 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:07:54:536 	Account: mydomain\joinacct
+09/04/2019 14:07:54:536 	Options: 0x23
+09/04/2019 14:07:54:536 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:07:54:551 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:07:54:567 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:07:54:567 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:07:54:567 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:07:54:567 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:07:54:567 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:08:04:580 -----------------------------------------------------------------
+09/04/2019 14:08:04:580 NetpDoDomainJoin
+09/04/2019 14:08:04:580 NetpDoDomainJoin: using new computer names
+09/04/2019 14:08:04:580 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:08:04:580 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:08:04:580 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:08:04:580 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:08:04:580 NetpJoinDomain
+09/04/2019 14:08:04:580 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:08:04:580 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:08:04:580 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:08:04:580 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:08:04:580 	Account: mydomain\joinacct
+09/04/2019 14:08:04:580 	Options: 0x23
+09/04/2019 14:08:04:580 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:08:04:580 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:08:04:611 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:08:04:611 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:08:04:611 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:08:04:611 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:08:04:611 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:08:14:626 -----------------------------------------------------------------
+09/04/2019 14:08:14:626 NetpDoDomainJoin
+09/04/2019 14:08:14:626 NetpDoDomainJoin: using new computer names
+09/04/2019 14:08:14:626 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:08:14:626 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:08:14:626 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:08:14:626 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:08:14:626 NetpJoinDomain
+09/04/2019 14:08:14:626 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:08:14:626 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:08:14:626 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:08:14:626 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:08:14:626 	Account: mydomain\joinacct
+09/04/2019 14:08:14:626 	Options: 0x23
+09/04/2019 14:08:14:626 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:08:14:626 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:08:14:641 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:08:14:641 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:08:14:641 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:08:14:641 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:08:14:641 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:08:24:670 -----------------------------------------------------------------
+09/04/2019 14:08:24:670 NetpDoDomainJoin
+09/04/2019 14:08:24:670 NetpDoDomainJoin: using new computer names
+09/04/2019 14:08:24:670 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:08:24:670 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:08:24:670 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:08:24:670 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:08:24:670 NetpJoinDomain
+09/04/2019 14:08:24:670 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:08:24:670 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:08:24:670 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:08:24:670 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:08:24:670 	Account: mydomain\joinacct
+09/04/2019 14:08:24:670 	Options: 0x23
+09/04/2019 14:08:24:685 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:08:24:685 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:08:29:294 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:08:29:294 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:08:29:294 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:08:29:294 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:08:29:294 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:08:39:307 -----------------------------------------------------------------
+09/04/2019 14:08:39:307 NetpDoDomainJoin
+09/04/2019 14:08:39:307 NetpDoDomainJoin: using new computer names
+09/04/2019 14:08:39:307 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:08:39:307 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:08:39:307 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:08:39:307 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:08:39:307 NetpJoinDomain
+09/04/2019 14:08:39:307 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:08:39:307 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:08:39:307 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:08:39:307 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:08:39:307 	Account: mydomain\joinacct
+09/04/2019 14:08:39:307 	Options: 0x23
+09/04/2019 14:08:39:307 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:08:39:307 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:08:39:338 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:08:39:338 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:08:39:338 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:08:39:338 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:08:39:338 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:08:49:354 -----------------------------------------------------------------
+09/04/2019 14:08:49:354 NetpDoDomainJoin
+09/04/2019 14:08:49:354 NetpDoDomainJoin: using new computer names
+09/04/2019 14:08:49:354 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:08:49:354 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:08:49:354 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:08:49:354 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:08:49:354 NetpJoinDomain
+09/04/2019 14:08:49:354 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:08:49:354 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:08:49:354 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:08:49:354 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:08:49:354 	Account: mydomain\joinacct
+09/04/2019 14:08:49:354 	Options: 0x23
+09/04/2019 14:08:49:370 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:08:49:370 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:08:49:385 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:08:49:385 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:08:49:385 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:08:49:385 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:08:49:385 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:08:59:399 -----------------------------------------------------------------
+09/04/2019 14:08:59:399 NetpDoDomainJoin
+09/04/2019 14:08:59:399 NetpDoDomainJoin: using new computer names
+09/04/2019 14:08:59:399 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:08:59:399 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:08:59:399 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:08:59:399 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:08:59:399 NetpJoinDomain
+09/04/2019 14:08:59:399 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:08:59:399 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:08:59:399 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:08:59:399 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:08:59:399 	Account: mydomain\joinacct
+09/04/2019 14:08:59:399 	Options: 0x23
+09/04/2019 14:08:59:399 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:08:59:399 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:08:59:416 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:08:59:416 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:08:59:416 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:08:59:416 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:08:59:416 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:09:09:431 -----------------------------------------------------------------
+09/04/2019 14:09:09:431 NetpDoDomainJoin
+09/04/2019 14:09:09:431 NetpDoDomainJoin: using new computer names
+09/04/2019 14:09:09:431 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:09:09:431 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:09:09:431 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:09:09:431 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:09:09:431 NetpJoinDomain
+09/04/2019 14:09:09:431 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:09:09:431 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:09:09:431 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:09:09:431 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:09:09:431 	Account: mydomain\joinacct
+09/04/2019 14:09:09:431 	Options: 0x23
+09/04/2019 14:09:09:431 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:09:09:431 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:09:09:446 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:09:09:446 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:09:09:446 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:09:09:446 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:09:09:446 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:09:19:476 -----------------------------------------------------------------
+09/04/2019 14:09:19:476 NetpDoDomainJoin
+09/04/2019 14:09:19:476 NetpDoDomainJoin: using new computer names
+09/04/2019 14:09:19:476 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:09:19:476 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:09:19:476 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:09:19:476 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:09:19:476 NetpJoinDomain
+09/04/2019 14:09:19:476 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:09:19:476 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:09:19:476 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:09:19:476 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:09:19:476 	Account: mydomain\joinacct
+09/04/2019 14:09:19:476 	Options: 0x23
+09/04/2019 14:09:19:492 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:09:19:492 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:09:19:507 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:09:19:507 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:09:19:507 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:09:19:507 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:09:19:507 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:09:29:521 -----------------------------------------------------------------
+09/04/2019 14:09:29:521 NetpDoDomainJoin
+09/04/2019 14:09:29:521 NetpDoDomainJoin: using new computer names
+09/04/2019 14:09:29:521 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:09:29:521 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:09:29:521 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:09:29:521 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:09:29:521 NetpJoinDomain
+09/04/2019 14:09:29:521 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:09:29:521 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:09:29:521 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:09:29:521 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:09:29:521 	Account: mydomain\joinacct
+09/04/2019 14:09:29:521 	Options: 0x23
+09/04/2019 14:09:29:536 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:09:29:536 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:09:29:552 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:09:29:552 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:09:29:552 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:09:29:552 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:09:29:552 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:09:39:563 -----------------------------------------------------------------
+09/04/2019 14:09:39:563 NetpDoDomainJoin
+09/04/2019 14:09:39:563 NetpDoDomainJoin: using new computer names
+09/04/2019 14:09:39:563 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:09:39:563 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:09:39:563 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:09:39:563 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:09:39:563 NetpJoinDomain
+09/04/2019 14:09:39:563 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:09:39:563 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:09:39:563 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:09:39:563 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:09:39:563 	Account: mydomain\joinacct
+09/04/2019 14:09:39:563 	Options: 0x23
+09/04/2019 14:09:39:563 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:09:39:563 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:09:39:594 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:09:39:594 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:09:39:594 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:09:39:594 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:09:39:594 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:09:49:607 -----------------------------------------------------------------
+09/04/2019 14:09:49:607 NetpDoDomainJoin
+09/04/2019 14:09:49:607 NetpDoDomainJoin: using new computer names
+09/04/2019 14:09:49:607 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:09:49:607 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:09:49:607 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:09:49:607 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:09:49:607 NetpJoinDomain
+09/04/2019 14:09:49:607 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:09:49:607 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:09:49:607 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:09:49:607 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:09:49:607 	Account: mydomain\joinacct
+09/04/2019 14:09:49:607 	Options: 0x23
+09/04/2019 14:09:49:623 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:09:49:623 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:09:49:639 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:09:49:639 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:09:49:639 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:09:49:639 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:09:49:639 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:09:59:652 -----------------------------------------------------------------
+09/04/2019 14:09:59:652 NetpDoDomainJoin
+09/04/2019 14:09:59:652 NetpDoDomainJoin: using new computer names
+09/04/2019 14:09:59:652 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:09:59:652 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:09:59:652 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:09:59:652 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:09:59:652 NetpJoinDomain
+09/04/2019 14:09:59:652 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:09:59:652 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:09:59:652 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:09:59:652 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:09:59:652 	Account: mydomain\joinacct
+09/04/2019 14:09:59:652 	Options: 0x23
+09/04/2019 14:09:59:667 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:09:59:667 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:09:59:683 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:09:59:683 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:09:59:683 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:09:59:683 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:09:59:683 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:10:09:702 -----------------------------------------------------------------
+09/04/2019 14:10:09:702 NetpDoDomainJoin
+09/04/2019 14:10:09:702 NetpDoDomainJoin: using new computer names
+09/04/2019 14:10:09:702 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:10:09:702 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:10:09:702 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:10:09:702 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:10:09:702 NetpJoinDomain
+09/04/2019 14:10:09:702 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:10:09:702 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:10:09:702 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:10:09:702 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:10:09:702 	Account: mydomain\joinacct
+09/04/2019 14:10:09:702 	Options: 0x23
+09/04/2019 14:10:09:702 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:10:09:702 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:10:09:734 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:10:09:734 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:10:09:734 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:10:09:734 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:10:09:734 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:10:19:747 -----------------------------------------------------------------
+09/04/2019 14:10:19:747 NetpDoDomainJoin
+09/04/2019 14:10:19:747 NetpDoDomainJoin: using new computer names
+09/04/2019 14:10:19:747 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:10:19:747 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:10:19:747 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:10:19:747 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:10:19:747 NetpJoinDomain
+09/04/2019 14:10:19:747 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:10:19:747 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:10:19:747 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:10:19:747 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:10:19:747 	Account: mydomain\joinacct
+09/04/2019 14:10:19:747 	Options: 0x23
+09/04/2019 14:10:19:747 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:10:19:762 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:10:19:762 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:10:19:762 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:10:19:762 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:10:19:762 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:10:19:762 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:10:29:792 -----------------------------------------------------------------
+09/04/2019 14:10:29:792 NetpDoDomainJoin
+09/04/2019 14:10:29:792 NetpDoDomainJoin: using new computer names
+09/04/2019 14:10:29:792 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:10:29:792 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:10:29:792 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:10:29:792 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:10:29:792 NetpJoinDomain
+09/04/2019 14:10:29:792 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:10:29:792 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:10:29:792 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:10:29:792 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:10:29:792 	Account: mydomain\joinacct
+09/04/2019 14:10:29:792 	Options: 0x23
+09/04/2019 14:10:29:807 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:10:29:807 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:10:29:823 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:10:29:823 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:10:29:823 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:10:29:823 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:10:29:823 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:10:39:840 -----------------------------------------------------------------
+09/04/2019 14:10:39:840 NetpDoDomainJoin
+09/04/2019 14:10:39:840 NetpDoDomainJoin: using new computer names
+09/04/2019 14:10:39:840 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:10:39:840 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:10:39:840 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:10:39:840 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:10:39:840 NetpJoinDomain
+09/04/2019 14:10:39:840 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:10:39:840 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:10:39:840 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:10:39:840 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:10:39:840 	Account: mydomain\joinacct
+09/04/2019 14:10:39:840 	Options: 0x23
+09/04/2019 14:10:39:840 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:10:39:855 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:10:39:871 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:10:39:871 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:10:39:871 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:10:39:871 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:10:39:871 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:10:49:884 -----------------------------------------------------------------
+09/04/2019 14:10:49:884 NetpDoDomainJoin
+09/04/2019 14:10:49:884 NetpDoDomainJoin: using new computer names
+09/04/2019 14:10:49:884 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:10:49:884 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:10:49:884 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:10:49:884 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:10:49:884 NetpJoinDomain
+09/04/2019 14:10:49:884 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:10:49:884 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:10:49:884 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:10:49:884 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:10:49:884 	Account: mydomain\joinacct
+09/04/2019 14:10:49:884 	Options: 0x23
+09/04/2019 14:10:49:884 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:10:49:900 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:10:49:915 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:10:49:915 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:10:49:915 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:10:49:915 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:10:49:915 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:10:59:929 -----------------------------------------------------------------
+09/04/2019 14:10:59:929 NetpDoDomainJoin
+09/04/2019 14:10:59:929 NetpDoDomainJoin: using new computer names
+09/04/2019 14:10:59:929 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:10:59:929 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:10:59:929 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:10:59:929 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:10:59:929 NetpJoinDomain
+09/04/2019 14:10:59:929 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:10:59:929 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:10:59:929 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:10:59:929 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:10:59:929 	Account: mydomain\joinacct
+09/04/2019 14:10:59:929 	Options: 0x23
+09/04/2019 14:10:59:944 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:10:59:944 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:10:59:960 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:10:59:960 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:10:59:960 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:10:59:960 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:10:59:960 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:11:09:974 -----------------------------------------------------------------
+09/04/2019 14:11:09:974 NetpDoDomainJoin
+09/04/2019 14:11:09:974 NetpDoDomainJoin: using new computer names
+09/04/2019 14:11:09:974 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:11:09:974 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:11:09:974 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:11:09:974 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:11:09:974 NetpJoinDomain
+09/04/2019 14:11:09:974 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:11:09:974 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:11:09:974 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:11:09:974 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:11:09:974 	Account: mydomain\joinacct
+09/04/2019 14:11:09:974 	Options: 0x23
+09/04/2019 14:11:09:990 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:11:09:990 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:11:10:005 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:11:10:005 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:11:10:005 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:11:10:005 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:11:10:005 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:11:20:020 -----------------------------------------------------------------
+09/04/2019 14:11:20:020 NetpDoDomainJoin
+09/04/2019 14:11:20:020 NetpDoDomainJoin: using new computer names
+09/04/2019 14:11:20:020 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:11:20:020 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:11:20:020 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:11:20:020 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:11:20:020 NetpJoinDomain
+09/04/2019 14:11:20:020 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:11:20:020 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:11:20:020 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:11:20:020 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:11:20:020 	Account: mydomain\joinacct
+09/04/2019 14:11:20:020 	Options: 0x23
+09/04/2019 14:11:20:035 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:11:20:035 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:11:20:051 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:11:20:051 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:11:20:051 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:11:20:051 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:11:20:051 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:11:30:063 -----------------------------------------------------------------
+09/04/2019 14:11:30:063 NetpDoDomainJoin
+09/04/2019 14:11:30:063 NetpDoDomainJoin: using new computer names
+09/04/2019 14:11:30:063 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:11:30:063 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:11:30:063 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:11:30:063 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:11:30:063 NetpJoinDomain
+09/04/2019 14:11:30:063 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:11:30:063 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:11:30:063 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:11:30:063 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:11:30:063 	Account: mydomain\joinacct
+09/04/2019 14:11:30:063 	Options: 0x23
+09/04/2019 14:11:30:063 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:11:30:063 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:11:30:078 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:11:30:078 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:11:30:078 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:11:30:078 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:11:30:078 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:11:40:108 -----------------------------------------------------------------
+09/04/2019 14:11:40:108 NetpDoDomainJoin
+09/04/2019 14:11:40:108 NetpDoDomainJoin: using new computer names
+09/04/2019 14:11:40:108 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:11:40:108 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:11:40:108 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:11:40:108 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:11:40:108 NetpJoinDomain
+09/04/2019 14:11:40:108 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:11:40:108 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:11:40:108 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:11:40:108 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:11:40:108 	Account: mydomain\joinacct
+09/04/2019 14:11:40:108 	Options: 0x23
+09/04/2019 14:11:40:108 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:11:40:108 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:11:40:124 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:11:40:124 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:11:40:124 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:11:40:124 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:11:40:124 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:11:50:137 -----------------------------------------------------------------
+09/04/2019 14:11:50:137 NetpDoDomainJoin
+09/04/2019 14:11:50:137 NetpDoDomainJoin: using new computer names
+09/04/2019 14:11:50:137 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:11:50:137 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:11:50:137 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:11:50:137 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:11:50:137 NetpJoinDomain
+09/04/2019 14:11:50:137 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:11:50:137 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:11:50:137 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:11:50:137 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:11:50:137 	Account: mydomain\joinacct
+09/04/2019 14:11:50:137 	Options: 0x23
+09/04/2019 14:11:50:137 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:11:50:137 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:11:50:168 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:11:50:168 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:11:50:168 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:11:50:168 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:11:50:168 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:12:00:182 -----------------------------------------------------------------
+09/04/2019 14:12:00:182 NetpDoDomainJoin
+09/04/2019 14:12:00:182 NetpDoDomainJoin: using new computer names
+09/04/2019 14:12:00:182 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:12:00:182 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:12:00:182 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:12:00:182 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:12:00:182 NetpJoinDomain
+09/04/2019 14:12:00:182 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:12:00:182 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:12:00:182 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:12:00:182 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:12:00:182 	Account: mydomain\joinacct
+09/04/2019 14:12:00:182 	Options: 0x23
+09/04/2019 14:12:00:182 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:12:00:182 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:12:00:213 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:12:00:213 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:12:00:213 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:12:00:213 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:12:00:213 NetpDoDomainJoin: status: 0x8bf
+09/04/2019 14:12:10:227 -----------------------------------------------------------------
+09/04/2019 14:12:10:227 NetpDoDomainJoin
+09/04/2019 14:12:10:227 NetpDoDomainJoin: using new computer names
+09/04/2019 14:12:10:227 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+09/04/2019 14:12:10:227 NetpDoDomainJoin: NetpGetNewHostName returned 0x0
+09/04/2019 14:12:10:227 NetpMachineValidToJoin: 'DEL-ABCDEFGHIJK'
+09/04/2019 14:12:10:227 NetpMachineValidToJoin: status: 0x0
+09/04/2019 14:12:10:227 NetpJoinDomain
+09/04/2019 14:12:10:227 	HostName: DEL-ABCDEFGHIJK
+09/04/2019 14:12:10:227 	NetbiosName: DEL-ABCDEFGHIJK
+09/04/2019 14:12:10:227 	Domain: mydomain.com\mydc01.mydomain.com
+09/04/2019 14:12:10:227 	MachineAccountOU: OU=Desktops,OU=Another2,OU=Another1,OU=Workstations,DC=mydomain,DC=com
+09/04/2019 14:12:10:227 	Account: mydomain\joinacct
+09/04/2019 14:12:10:227 	Options: 0x23
+09/04/2019 14:12:10:227 NetpDisableIDNEncoding: no domain dns available - IDN encoding will NOT be disabled
+09/04/2019 14:12:10:227 NetpJoinDomainOnDs: NetpDisableIDNEncoding returned: 0x0
+09/04/2019 14:12:10:258 NetUseAdd to \\mydc01.mydomain.com\IPC$ returned 2239
+09/04/2019 14:12:10:258 NetpJoinDomainOnDs: status of connecting to dc '\\mydc01.mydomain.com': 0x8bf
+09/04/2019 14:12:10:258 NetpJoinDomainOnDs: Function exits with status of: 0x8bf
+09/04/2019 14:12:10:258 NetpJoinDomainOnDs: NetpResetIDNEncoding on '(null)': 0x0
+09/04/2019 14:12:10:258 NetpDoDomainJoin: status: 0x8bf
